@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_figma_screen/figma_screen/sevan_screen.dart';
+import 'package:new_figma_screen/figma_screen/new%20app%20screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,6 @@ class MyApp extends StatelessWidget {
           fontFamily: "inter",
           primarySwatch: Colors.blue,
         ),
-        home: const SevanScreen());
+        home: const NewAppScreen());
   }
 }

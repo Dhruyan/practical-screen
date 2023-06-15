@@ -26,8 +26,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
             fontSize: 25,
           ),
         ),
-        actions: [
-          const Padding(
+        actions: const [
+          Padding(
             padding: EdgeInsets.only(right: 20),
             child: Image(
               image: AssetImage("assets/images/Group.png"),
@@ -62,8 +62,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Reading books",
@@ -74,7 +74,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "50 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -120,8 +120,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Editing Audio",
@@ -132,7 +132,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "75 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -178,8 +178,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Learn Pograming",
@@ -190,7 +190,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "50 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -236,8 +236,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Reading books",
@@ -248,7 +248,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "50 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -294,8 +294,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Reading books",
@@ -306,7 +306,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "50 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -352,8 +352,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Editing Audio",
@@ -364,7 +364,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "75 minutes",
                     style: TextStyle(
                       fontSize: 20,
@@ -410,8 +410,8 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                 ),
               ),
               Column(
-                children: [
-                  const Padding(
+                children: const [
+                  Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
                       "Learn Pograming",
@@ -422,7 +422,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  const Text(
+                  Text(
                     "50 minutes",
                     style: TextStyle(
                       fontSize: 20,

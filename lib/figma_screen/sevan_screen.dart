@@ -502,11 +502,12 @@ class _SevanScreenState extends State<SevanScreen> {
                           ),
                         ),
                       ),
-                      const Text(
-                        "Amanda",
-                        style: TextStyle(),
-                      ),
                     ],
+                  ),
+                  const SizedBox(width: 80),
+                  const Text(
+                    "Amanda",
+                    style: TextStyle(),
                   ),
                 ],
               ),
@@ -517,3 +518,5 @@ class _SevanScreenState extends State<SevanScreen> {
     );
   }
 }
+
+// Ds@85&5599
