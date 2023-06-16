@@ -97,7 +97,11 @@ class _NewAppScreenState extends State<NewAppScreen> {
             padding: const EdgeInsets.all(20),
             child: TextField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(),
+                icon: Icon(Icons.search),
+                labelText: "Search Food Restaurants etc.",
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(15),
+                ),
               ),
             ),
           ),
