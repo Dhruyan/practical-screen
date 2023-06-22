@@ -10,6 +10,16 @@ class IconButton1 extends StatefulWidget {
 class _IconButtonState extends State<IconButton1> {
   bool switchvalue = true;
   bool? checkBoxvalue = false;
+  String? gender;
+  String dropdwonvalue = 'item';
+  var items = [
+    'item 1',
+    'item 2',
+    'item 3',
+    'item 4',
+    'item 5',
+    'item 6',
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -78,19 +88,55 @@ class _IconButtonState extends State<IconButton1> {
                 },
               ),
             ),
-            Radio(
-              activeColor: Colors.black,
-              autofocus: true,
-              value: checkBoxvalue,
-              groupValue: checkBoxvalue,
-              onChanged: (value) {},
+            RadioListTile(
+              title: Text("Male"),
+              value: "Male",
+              groupValue: gender,
+              onChanged: (value) {
+                setState(() {
+                  gender = value.toString();
+                });
+              },
             ),
-            Radio(
-              activeColor: Colors.pink,
-              autofocus: false,
-              value: checkBoxvalue,
-              groupValue: checkBoxvalue,
-              onChanged: (value) {},
+            RadioListTile(
+              title: Text("Female"),
+              value: "Female",
+              groupValue: gender,
+              onChanged: (value) {
+                setState(() {
+                  gender = value.toString();
+                });
+              },
+            ),
+            RadioListTile(
+              title: Text("Other"),
+              value: "Other",
+              groupValue: gender,
+              onChanged: (value) {
+                setState(() {
+                  gender = value.toString();
+                });
+              },
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                DropdownButton(
+                  value: dropdwonvalue,
+                  icon: const Icon(Icons.keyboard_arrow_down_outlined),
+                  items: items.map((String items) {
+                    return DropdownMenuItem(
+                      value: items,
+                      child: Text(items),
+                    );
+                  }).toList(),
+                  onChanged: (String? newvalue) {
+                    setState(() {
+                      dropdwonvalue = newvalue!;
+                    });
+                  },
+                ),
+              ],
             ),
           ],
         ),

@@ -1,24 +1,25 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-class Figmaonescreen extends StatefulWidget {
-  const Figmaonescreen({Key? key}) : super(key: key);
+class FigmaOneScreen extends StatefulWidget {
+  const FigmaOneScreen({super.key});
 
   @override
-  State<Figmaonescreen> createState() => _FigmaonescreenState();
+  State<FigmaOneScreen> createState() => _FigmaOneScreenState();
 }
 
-class _FigmaonescreenState extends State<Figmaonescreen> {
+class _FigmaOneScreenState extends State<FigmaOneScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Image.asset(
-            "assets/images/Group 1784.png",
-          ),
-        ],
+      appBar: AppBar(
+        backgroundColor: Color(0xFF04764E),
+        leading: Icon(Icons.arrow_back),
+        title: Padding(
+          padding: const EdgeInsets.only(left: 20),
+          child: Text("Top Goalscorers"),
+        ),
       ),
+      body: ,
     );
   }
 }
