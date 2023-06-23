@@ -443,7 +443,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/ant-design_caret-right-outlined.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
