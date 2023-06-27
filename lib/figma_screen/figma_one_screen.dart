@@ -77,6 +77,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                           "15 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -127,7 +128,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                   Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, left: 10),
+                        padding: const EdgeInsets.only(top: 10, right: 10),
                         child: Image.asset(
                           "assets/images/1st 1screen.png",
                           height: 23,
@@ -137,7 +138,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                       Padding(
                         padding: const EdgeInsets.only(left: 45, top: 8),
                         child: Text(
-                          "NSKALA",
+                          "VINCENT GHEZZAL",
                           style: TextStyle(
                             fontSize: 14,
                             color: Color(0xFF595959),
@@ -150,6 +151,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                           "18 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -159,7 +161,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                   Padding(
                     padding: const EdgeInsets.only(left: 79),
                     child: Image.asset(
-                      "assets/images/1st 1 row 1 st.png",
+                      "assets/images/1 st 2 row.png",
                       height: 100,
                       width: 100,
                       fit: BoxFit.fill,
@@ -210,7 +212,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                       Padding(
                         padding: const EdgeInsets.only(left: 45, top: 8),
                         child: Text(
-                          "NSKALA",
+                          "KYLE MARIN",
                           style: TextStyle(
                             fontSize: 14,
                             color: Color(0xFF595959),
@@ -218,11 +220,12 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 43, top: 8),
+                        padding: const EdgeInsets.only(left: 23, top: 8),
                         child: Text(
                           "15 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -230,9 +233,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                     ],
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 79),
+                    padding: const EdgeInsets.only(left: 52),
                     child: Image.asset(
-                      "assets/images/1st 1 row 1 st.png",
+                      "assets/images/1 st 3 row.png",
                       height: 100,
                       width: 100,
                       fit: BoxFit.fill,
@@ -281,9 +284,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 45, top: 8),
+                        padding: const EdgeInsets.only(left: 20, top: 8),
                         child: Text(
-                          "NSKALA",
+                          "MUS",
                           style: TextStyle(
                             fontSize: 14,
                             color: Color(0xFF595959),
@@ -291,11 +294,12 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 43, top: 8),
+                        padding: const EdgeInsets.only(left: 45, top: 8),
                         child: Text(
                           "12 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -303,9 +307,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                     ],
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 79),
+                    padding: const EdgeInsets.only(left: 76),
                     child: Image.asset(
-                      "assets/images/1st 1 row 1 st.png",
+                      "assets/images/1 st 4 row.png",
                       height: 100,
                       width: 100,
                       fit: BoxFit.fill,
@@ -346,7 +350,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                   Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, left: 10),
+                        padding: const EdgeInsets.only(top: 10, right: 15),
                         child: Image.asset(
                           "assets/images/1st 1screen.png",
                           height: 23,
@@ -356,7 +360,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                       Padding(
                         padding: const EdgeInsets.only(left: 45, top: 8),
                         child: Text(
-                          "NSKALA",
+                          "GARY RODRY",
                           style: TextStyle(
                             fontSize: 14,
                             color: Color(0xFF595959),
@@ -364,11 +368,12 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 40, top: 8),
+                        padding: const EdgeInsets.only(left: 15, top: 8),
                         child: Text(
                           "9 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -376,9 +381,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                     ],
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 79),
+                    padding: const EdgeInsets.only(left: 50),
                     child: Image.asset(
-                      "assets/images/1st 1 row 1 st.png",
+                      "assets/images/1 st 5 row.png",
                       height: 100,
                       width: 100,
                       fit: BoxFit.fill,
@@ -419,7 +424,7 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                   Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(top: 10, left: 10),
+                        padding: const EdgeInsets.only(top: 10, right: 40),
                         child: Image.asset(
                           "assets/images/1st 1screen.png",
                           height: 23,
@@ -427,9 +432,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 45, top: 8),
+                        padding: const EdgeInsets.only(left: 50, top: 8),
                         child: Text(
-                          "NSKALA",
+                          "KEVIN DOUGLAS",
                           style: TextStyle(
                             fontSize: 14,
                             color: Color(0xFF595959),
@@ -437,11 +442,12 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(left: 40, top: 8),
+                        padding: const EdgeInsets.only(right: 5, top: 8),
                         child: Text(
                           "4 Goals",
                           style: TextStyle(
                             fontSize: 14,
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF000000),
                           ),
                         ),
@@ -449,9 +455,9 @@ class _FigmaOneScreenState extends State<FigmaOneScreen> {
                     ],
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 79),
+                    padding: const EdgeInsets.only(left: 22),
                     child: Image.asset(
-                      "assets/images/1st 1 row 1 st.png",
+                      "assets/images/1 st 6 row.png",
                       height: 100,
                       width: 100,
                       fit: BoxFit.fill,
