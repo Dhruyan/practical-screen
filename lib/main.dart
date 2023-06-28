@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'figma_screen/figma_one_screen.dart';
+import 'figma_screen/figma_secound_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,6 @@ class MyApp extends StatelessWidget {
           fontFamily: "inter",
           primarySwatch: Colors.blue,
         ),
-        home: const FigmaOneScreen());
+        home: const FigmaSecoundScreen());
   }
 }
