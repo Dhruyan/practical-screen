@@ -30,7 +30,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
           Padding(
             padding: EdgeInsets.only(right: 20),
             child: Image(
-              image: AssetImage("assets/images/Group.png"),
+              image: AssetImage("assets/images/group menu 2 nd.png"),
               height: 30,
               width: 30,
             ),
@@ -57,12 +57,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/Vector.png",
+                  "assets/images/2 nd 1 st.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -95,7 +95,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -115,12 +118,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/music.png",
+                  "assets/images/2 nd 2.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -153,7 +156,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -173,12 +179,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/3 ed row.png",
+                  "assets/images/2 nd 3.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -211,7 +217,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -231,12 +240,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/Vector.png",
+                  "assets/images/2 nd 1 st.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -269,7 +278,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -289,12 +301,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/Vector.png",
+                  "assets/images/2 nd 1 st.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -327,7 +339,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -347,12 +362,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/music.png",
+                  "assets/images/2 nd 2.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -385,7 +400,10 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   shape: BoxShape.circle,
                   color: Color(0xFF20be62),
                 ),
-                child: Image.asset("assets/images/ant-design_caret-right-outlined.png", fit: BoxFit.cover),
+                child: Image.asset(
+                  "assets/images/2 nd 1 all play image.png",
+                  fit: BoxFit.cover,
+                ),
               )
             ],
           ),
@@ -405,12 +423,12 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Image.asset(
-                  "assets/images/3 ed row.png",
+                  "assets/images/2 nd 3.png",
                   fit: BoxFit.cover,
                 ),
               ),
-              Column(
-                children: const [
+              const Column(
+                children: [
                   Padding(
                     padding: EdgeInsets.only(left: 20),
                     child: Text(
@@ -422,12 +440,15 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                       ),
                     ),
                   ),
-                  Text(
-                    "50 minutes",
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.w200,
-                      color: Color(0xFFafaeae),
+                  Padding(
+                    padding: EdgeInsets.only(right: 25),
+                    child: Text(
+                      "50 minutes",
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w200,
+                        color: Color(0xFFafaeae),
+                      ),
                     ),
                   ),
                 ],
@@ -444,7 +465,7 @@ class _FigmaSecoundScreenState extends State<FigmaSecoundScreen> {
                   color: Color(0xFF20be62),
                 ),
                 child: Image.asset(
-                  "assets/images/ant-design_caret-right-outlined.png",
+                  "assets/images/2 nd 1 all play image.png",
                   fit: BoxFit.cover,
                 ),
               )

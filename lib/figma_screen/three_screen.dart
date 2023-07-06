@@ -17,23 +17,23 @@ class _ThreescreenState extends State<Threescreen> {
               children: [
                 Expanded(
                   child: Container(
-                    margin: EdgeInsets.only(right: 30),
-                    child: Divider(
+                    margin: const EdgeInsets.only(right: 30),
+                    child: const Divider(
                       color: Color(0xFFBDBDBD),
                       thickness: 2,
                     ),
                   ),
                 ),
                 Image.asset(
-                  "assets/images/roundimage.png",
+                  "assets/images/3ed screen.png",
                   fit: BoxFit.cover,
                   height: 64,
                   width: 64,
                 ),
                 Expanded(
                   child: Container(
-                    margin: EdgeInsets.only(left: 30),
-                    child: Divider(
+                    margin: const EdgeInsets.only(left: 30),
+                    child: const Divider(
                       color: Color(0xFFBDBDBD),
                       thickness: 2,
                     ),
@@ -41,17 +41,17 @@ class _ThreescreenState extends State<Threescreen> {
                 ),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            Text(
+            const Text(
               "Welcome",
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.w600,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30,
             ),
             Container(
@@ -60,7 +60,7 @@ class _ThreescreenState extends State<Threescreen> {
               color: Colors.white,
               child: Column(
                 children: [
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   Container(
@@ -68,13 +68,13 @@ class _ThreescreenState extends State<Threescreen> {
                     width: 287,
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Color(0xFFe0e0e0),
+                        color: const Color(0xFFe0e0e0),
                       ),
                     ),
-                    child: Row(
+                    child: const Row(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(left: 10),
+                          padding: EdgeInsets.only(left: 10),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -87,7 +87,7 @@ class _ThreescreenState extends State<Threescreen> {
                                   fontWeight: FontWeight.normal,
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              SizedBox(height: 8),
                               Text(
                                 "cr7",
                                 style: TextStyle(
@@ -100,17 +100,17 @@ class _ThreescreenState extends State<Threescreen> {
                           ),
                         ),
                         Spacer(),
-                        Image(
-                          image: AssetImage(
-                              "assets/images/baseline-keyboard_arrow_down-24px.png"),
-                          height: 20,
-                          width: 20,
-                          fit: BoxFit.cover,
+                        Padding(
+                          padding: EdgeInsets.only(right: 10),
+                          child: Icon(
+                            Icons.keyboard_arrow_down_sharp,
+                            color: Colors.black,
+                          ),
                         ),
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -118,11 +118,11 @@ class _ThreescreenState extends State<Threescreen> {
                     width: 287,
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Color(0xFFe0e0e0),
+                        color: const Color(0xFFe0e0e0),
                       ),
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 10),
+                    child: const Padding(
+                      padding: EdgeInsets.only(left: 10),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -135,7 +135,7 @@ class _ThreescreenState extends State<Threescreen> {
                               fontWeight: FontWeight.normal,
                             ),
                           ),
-                          SizedBox(height: 5),
+                          SizedBox(height: 8),
                           Text(
                             "cr7@gmail.com",
                             style: TextStyle(
@@ -148,7 +148,7 @@ class _ThreescreenState extends State<Threescreen> {
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -156,13 +156,13 @@ class _ThreescreenState extends State<Threescreen> {
                     width: 287,
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Color(0xFFe0e0e0),
+                        color: const Color(0xFFe0e0e0),
                       ),
                     ),
-                    child: Row(
+                    child: const Row(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(left: 10),
+                          padding: EdgeInsets.only(left: 10),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -175,7 +175,7 @@ class _ThreescreenState extends State<Threescreen> {
                                   fontWeight: FontWeight.normal,
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              SizedBox(height: 8),
                               Text(
                                 "*******",
                                 style: TextStyle(
@@ -196,7 +196,7 @@ class _ThreescreenState extends State<Threescreen> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -204,13 +204,13 @@ class _ThreescreenState extends State<Threescreen> {
                     width: 287,
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Color(0xFFe0e0e0),
+                        color: const Color(0xFFe0e0e0),
                       ),
                     ),
-                    child: Row(
+                    child: const Row(
                       children: [
                         Padding(
-                          padding: const EdgeInsets.only(left: 10),
+                          padding: EdgeInsets.only(left: 10),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -223,7 +223,7 @@ class _ThreescreenState extends State<Threescreen> {
                                   fontWeight: FontWeight.normal,
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              SizedBox(height: 8),
                               Text(
                                 "*******",
                                 style: TextStyle(
@@ -244,7 +244,7 @@ class _ThreescreenState extends State<Threescreen> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   Container(
@@ -254,8 +254,8 @@ class _ThreescreenState extends State<Threescreen> {
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: Padding(
-                      padding: const EdgeInsets.only(left: 120, top: 15),
+                    child: const Padding(
+                      padding: EdgeInsets.only(left: 120, top: 15),
                       child: Text(
                         "sing up",
                         style: TextStyle(
@@ -266,26 +266,28 @@ class _ThreescreenState extends State<Threescreen> {
                       ),
                     ),
                   ),
-                  SizedBox(height: 20,),
-                  RichText(text: TextSpan(
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Color(0xFF61707f),
-                    ),
-                    children: [
-                      TextSpan(
-                        text: ("Already have an account ?"),
-                      ),
-                      TextSpan(
-                          text: ("log in"),
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: Color(0xFF303030),
-                            fontWeight: FontWeight.bold,
-                          )
-                      ),
-                    ],
+                  const SizedBox(
+                    height: 20,
                   ),
+                  RichText(
+                    text: const TextSpan(
+                      style: TextStyle(
+                        fontSize: 18,
+                        color: Color(0xFF61707f),
+                      ),
+                      children: [
+                        TextSpan(
+                          text: ("Already have an account ?"),
+                        ),
+                        TextSpan(
+                            text: ("log in"),
+                            style: TextStyle(
+                              fontSize: 18,
+                              color: Color(0xFF303030),
+                              fontWeight: FontWeight.bold,
+                            )),
+                      ],
+                    ),
                   ),
                 ],
               ),
