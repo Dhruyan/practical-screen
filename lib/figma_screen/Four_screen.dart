@@ -219,12 +219,27 @@ class _FourScreenState extends State<FourScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        "You have connected",
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Color(0xFF272727),
-                        ),
+                      Row(
+                        children: [
+                          Text(
+                            "You have connected",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Color(0xFF272727),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 45, bottom: 10),
+                            child: Text(
+                              "2 min ago",
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Color(0xFF3B3B3B),
+                                fontWeight: FontWeight.w200,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                       Text(
                         "to bank account successfully. ",
@@ -263,12 +278,27 @@ class _FourScreenState extends State<FourScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        "Hey Mahesh",
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Color(0xFF272727),
-                        ),
+                      Row(
+                        children: [
+                          Text(
+                            "Hey Mahesh",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Color(0xFF272727),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 85, bottom: 10),
+                            child: Text(
+                              "10.00 Am",
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Color(0xFF3B3B3B),
+                                fontWeight: FontWeight.w200,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                       Text(
                         "Please submit review.",
@@ -284,15 +314,83 @@ class _FourScreenState extends State<FourScreen> {
             ),
           ),
           const SizedBox(height: 40),
-          Padding(
-            padding: const EdgeInsets.only(right: 210),
-            child: const Text(
+          const Padding(
+            padding: EdgeInsets.only(right: 210),
+            child: Text(
               "2 months ago",
               style: TextStyle(
                 color: Color(0xFF1A1E25),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
+            ),
+          ),
+          const SizedBox(height: 25),
+          Container(
+            height: 77,
+            width: 325,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(20),
+            ),
+            child: Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 10),
+                  child: Image.asset(
+                    "assets/images/4 th screen 3.png",
+                    height: 58,
+                    width: 57,
+                  ),
+                ),
+                const Padding(
+                  padding: EdgeInsets.only(left: 20),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Text(
+                            "Please verify email",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Color(0xFF272727),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(left: 55, bottom: 10),
+                            child: Text(
+                              "22 July",
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Color(0xFF3B3B3B),
+                                fontWeight: FontWeight.w200,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      Text(
+                        "Verify Email",
+                        style: TextStyle(
+                          fontSize: 14,
+                          color: Color(0xFFF37024),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 40),
+          Text(
+            "NO OTHER NOTIFICATION",
+            style: TextStyle(
+              fontSize: 14,
+              color: Color(0xFF3B3B3B),
+              fontWeight: FontWeight.w200,
             ),
           ),
         ],

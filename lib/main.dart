@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_figma_screen/figma_screen/Four_screen.dart';
+import 'package:new_figma_screen/figma_screen/five_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "inter",
         primarySwatch: Colors.blue,
       ),
-      home: const FourScreen(),
+      home: const FiveScreen(),
     );
   }
 }
