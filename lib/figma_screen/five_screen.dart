@@ -157,7 +157,7 @@ class _FiveScreenState extends State<FiveScreen> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.only(top: 10, right: 210),
+              padding: const EdgeInsets.only(top: 10, right: 200),
               child: const Text(
                 "Choose Package",
                 style: TextStyle(
@@ -179,7 +179,26 @@ class _FiveScreenState extends State<FiveScreen> {
               ),
               child: Column(
                 children: [
-                  Row(),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20, top: 15),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 39,
+                          width: 38,
+                          decoration: BoxDecoration(
+                            color: Color(0xFFD9D0FD),
+                            shape: BoxShape.circle,
+                          ),
+                          child: Image.asset(
+                            "assets/images/5 th 2 nd.png",
+                            height: 41,
+                            width: 40,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
