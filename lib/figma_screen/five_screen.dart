@@ -11,6 +11,7 @@ class _FiveScreenState extends State<FiveScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFE1EAFF),
       body: SafeArea(
         child: Column(
           children: [
@@ -156,9 +157,9 @@ class _FiveScreenState extends State<FiveScreen> {
                 ),
               ],
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 10, right: 200),
-              child: const Text(
+            const Padding(
+              padding: EdgeInsets.only(top: 10, right: 200),
+              child: Text(
                 "Choose Package",
                 style: TextStyle(
                   fontSize: 16,
@@ -166,14 +167,14 @@ class _FiveScreenState extends State<FiveScreen> {
                 ),
               ),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 20),
             Container(
               height: 142,
               width: 315,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
                 border: Border.all(
-                  color: Color(0xFFFF897E),
+                  color: const Color(0xFFFF897E),
                   width: 2,
                 ),
               ),
@@ -186,14 +187,264 @@ class _FiveScreenState extends State<FiveScreen> {
                         Container(
                           height: 39,
                           width: 38,
-                          decoration: BoxDecoration(
+                          decoration: const BoxDecoration(
                             color: Color(0xFFD9D0FD),
                             shape: BoxShape.circle,
                           ),
                           child: Image.asset(
                             "assets/images/5 th 2 nd.png",
+                            height: 21,
+                            width: 20,
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 25),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Freedom Internet",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                              Text(
+                                "30 Day",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 70),
+                          child: Text(
+                            "\$10",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Divider(
+                    height: 25,
+                    color: Colors.black,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "New 42 GB + Call 2hours + Streaming 5 Gb\n "
+                          ",\n"
+                          "Active 30 Day",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 15),
+            Container(
+              height: 142,
+              width: 315,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color(0xFF000000),
+                  width: 1,
+                ),
+              ),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20, top: 15),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 39,
+                          width: 38,
+                          decoration: const BoxDecoration(
+                            color: Color(0xFFD9D0FD),
+                            shape: BoxShape.circle,
+                          ),
+                          child: Image.asset(
+                            "assets/images/5 th 4 th.png",
                             height: 41,
                             width: 40,
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 25),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Freedom Apps Ytube",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                              Text(
+                                "Netflix, IG , More ...",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 55),
+                          child: Text(
+                            "\$20",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Divider(
+                    height: 25,
+                    color: Colors.black,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "New 42 GB + Call 2hours + Streaming 5 Gb",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 12,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 5),
+                          child: Text(
+                            "Active 30 Day",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 15),
+            Container(
+              height: 142,
+              width: 315,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color(0xFF000000),
+                  width: 1,
+                ),
+              ),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20, top: 15),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 39,
+                          width: 38,
+                          decoration: const BoxDecoration(
+                            color: Color(0xFFD9D0FD),
+                            shape: BoxShape.circle,
+                          ),
+                          child: Image.asset(
+                            "assets/images/5 th 4 th.png",
+                            height: 21,
+                            width: 20,
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 25),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Daily kuota freedom",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                              Text(
+                                "2GB/Day",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  color: Colors.black,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const Padding(
+                          padding: EdgeInsets.only(left: 60),
+                          child: Text(
+                            "\$25",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Divider(
+                    height: 25,
+                    color: Colors.black,
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.only(right: 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "New 42 GB + Call 2hours + Streaming 5 Gb ,",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 12,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 5),
+                          child: Text(
+                            "Active 30 Day",
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 12,
+                            ),
                           ),
                         ),
                       ],

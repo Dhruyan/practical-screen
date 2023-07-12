@@ -32,10 +32,10 @@ class _SevanScreenState extends State<SevanScreen> {
                             ),
                             borderRadius: BorderRadius.circular(25),
                           ),
-                          child: Padding(
-                            padding: const EdgeInsets.only(left: 15),
+                          child: const Padding(
+                            padding: EdgeInsets.only(left: 15),
                             child: Row(
-                              children: const [
+                              children: [
                                 SizedBox(
                                   width: 20,
                                   child: (Icon(
@@ -121,10 +121,10 @@ class _SevanScreenState extends State<SevanScreen> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(top: 10, left: 25),
+                  const Padding(
+                    padding: EdgeInsets.only(top: 10, left: 25),
                     child: Row(
-                      children: const [
+                      children: [
                         Text(
                           "Let's start exploring",
                           style: TextStyle(fontSize: 25, color: Color(0xFF252b5c)),
@@ -144,8 +144,8 @@ class _SevanScreenState extends State<SevanScreen> {
                           color: const Color(0xFFf5f4f8),
                         ),
                       ),
-                      child: Row(
-                        children: const [
+                      child: const Row(
+                        children: [
                           Padding(
                             padding: EdgeInsets.only(left: 20),
                             child: Icon(
@@ -283,11 +283,11 @@ class _SevanScreenState extends State<SevanScreen> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(20),
+                  const Padding(
+                    padding: EdgeInsets.all(20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Featured Estates",
                           style: TextStyle(
@@ -355,11 +355,11 @@ class _SevanScreenState extends State<SevanScreen> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(20),
+                  const Padding(
+                    padding: EdgeInsets.all(20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Top Locations",
                           style: TextStyle(
@@ -465,11 +465,11 @@ class _SevanScreenState extends State<SevanScreen> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(20),
+                  const Padding(
+                    padding: EdgeInsets.all(20),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Top Estate Agent",
                           style: TextStyle(

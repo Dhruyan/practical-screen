@@ -15,10 +15,10 @@ class _SixScreenState extends State<SixScreen> {
         backgroundColor: Colors.black,
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 20, top: 50),
+            const Padding(
+              padding: EdgeInsets.only(left: 20, top: 50),
               child: Row(
-                children: const [
+                children: [
                   Icon(Icons.arrow_back_ios_new_sharp, size: 24, color: Colors.white),
                   SizedBox(width: 20),
                   Text(
@@ -33,9 +33,9 @@ class _SixScreenState extends State<SixScreen> {
               ),
             ),
             const SizedBox(height: 15),
-            Expanded(
+            const Expanded(
               child: Column(
-                children: const [
+                children: [
                   TabBar(
                     indicatorSize: TabBarIndicatorSize.tab,
                     indicatorWeight: 1,
@@ -64,14 +64,14 @@ class _SixScreenState extends State<SixScreen> {
                 child: Row(
                   children: [
                     Image.asset(
-                      "assets/images/six 1st.png",
+                      "assets/images/6 th 1 st.png",
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             "Jollof Rice and chicken",
                             style: TextStyle(
@@ -120,14 +120,14 @@ class _SixScreenState extends State<SixScreen> {
                 child: Row(
                   children: [
                     Image.asset(
-                      "assets/images/six 2ed.png",
+                      "assets/images/6 th 2 nd.png",
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             "Jollof Rice and chicken",
                             style: TextStyle(
@@ -137,7 +137,7 @@ class _SixScreenState extends State<SixScreen> {
                             ),
                           ),
                           Text(
-                            "N3,500",
+                            "N4,000",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 16,
@@ -176,14 +176,14 @@ class _SixScreenState extends State<SixScreen> {
                 child: Row(
                   children: [
                     Image.asset(
-                      "assets/images/six 3ed.png",
+                      "assets/images/6 th 3 ed.png",
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             "Jollof Rice and chicken",
                             style: TextStyle(
@@ -193,7 +193,7 @@ class _SixScreenState extends State<SixScreen> {
                             ),
                           ),
                           Text(
-                            "N3,500",
+                            "N2,000",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 16,
@@ -232,14 +232,14 @@ class _SixScreenState extends State<SixScreen> {
                 child: Row(
                   children: [
                     Image.asset(
-                      "assets/images/six 3ed.png",
+                      "assets/images/6 th 3 ed.png",
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             "Jollof Spaghetti and Turkey",
                             style: TextStyle(
@@ -288,14 +288,14 @@ class _SixScreenState extends State<SixScreen> {
                 child: Row(
                   children: [
                     Image.asset(
-                      "assets/images/six 3ed.png",
+                      "assets/images/6 th 3 ed.png",
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 15),
+                    const Padding(
+                      padding: EdgeInsets.only(left: 15),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
+                        children: [
                           Text(
                             "Jollof Spaghetti and Turkey",
                             style: TextStyle(
