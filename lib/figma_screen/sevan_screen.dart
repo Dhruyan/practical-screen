@@ -85,7 +85,7 @@ class _SevanScreenState extends State<SevanScreen> {
                               border: Border.all(color: const Color(0xFFdfdfdf)),
                             ),
                             child: Image.asset(
-                              "assets/images/man_image.png",
+                              "assets/images/7 th 1 st.png",
                               height: 40,
                               width: 40,
                             ),
@@ -179,7 +179,7 @@ class _SevanScreenState extends State<SevanScreen> {
                   Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(17),
+                        padding: const EdgeInsets.all(15),
                         child: Container(
                           height: 47,
                           width: 62,
@@ -197,7 +197,6 @@ class _SevanScreenState extends State<SevanScreen> {
                           ),
                         ),
                       ),
-                      const SizedBox(width: 10),
                       Container(
                         height: 47,
                         width: 80,
@@ -258,256 +257,182 @@ class _SevanScreenState extends State<SevanScreen> {
                   ),
                   SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
-                    child: Stack(
-                      children: [
-                        Row(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(left: 20, top: 25),
-                              child: Image.asset(
-                                "assets/images/7 th 1 st screen.png",
-                                height: 180,
-                                width: 270,
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 20, top: 25),
-                              child: Image.asset(
-                                "assets/images/7th 2 img.png",
-                                height: 180,
-                                width: 270,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Padding(
-                    padding: EdgeInsets.all(20),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(
-                          "Featured Estates",
-                          style: TextStyle(
-                            color: Color(0xFF252B5C),
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Text(
-                          "View All",
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Color(0xFF234F68),
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Stack(
-                      children: [
-                        Row(
+                        Stack(
                           children: [
                             Padding(
-                              padding: const EdgeInsets.only(right: 20),
+                              padding: const EdgeInsets.only(left: 15, right: 15),
+                              child: Image.asset(
+                                "assets/images/7 th 2 nd.png",
+                                height: 180,
+                                width: 270,
+                              ),
+                            ),
+                            const Padding(
+                              padding: EdgeInsets.only(top: 40, left: 30),
+                              child: Text(
+                                "Halloween\n"
+                                "Sale!",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                            const Padding(
+                              padding: EdgeInsets.only(top: 90, left: 30),
+                              child: Text(
+                                "All discount up to 60%",
+                                style: TextStyle(
+                                  fontSize: 10,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(top: 125, left: 15),
                               child: Container(
-                                height: 156,
-                                width: 268,
+                                height: 56,
+                                width: 93,
                                 decoration: const BoxDecoration(
-                                  color: Color(0xFFF5F4F8),
+                                  color: Color(0xFF234F68),
+                                  borderRadius: BorderRadius.only(
+                                    topRight: Radius.circular(25),
+                                  ),
                                 ),
-                                child: Row(
-                                  children: [
-                                    Padding(
-                                      padding: const EdgeInsets.only(right: 120),
-                                      child: Image.asset(
-                                        "assets/images/7th 3 img.png",
-                                        height: 140,
-                                        width: 134,
-                                      ),
+                                child: const Icon(
+                                  Icons.arrow_forward_outlined,
+                                  size: 25,
+                                  weight: 20,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 10),
+                          child: Stack(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(right: 10),
+                                child: Image.asset(
+                                  "assets/images/7 th 3 ed.png",
+                                  height: 180,
+                                  width: 270,
+                                ),
+                              ),
+                              const Padding(
+                                padding: EdgeInsets.only(top: 40, left: 30),
+                                child: Text(
+                                  "Summer\n"
+                                  "Vacation",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                              const Padding(
+                                padding: EdgeInsets.only(top: 90, left: 30),
+                                child: Text(
+                                  "All discount up to 60%",
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 125),
+                                child: Container(
+                                  height: 56,
+                                  width: 93,
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF234F68),
+                                    borderRadius: BorderRadius.only(
+                                      topRight: Radius.circular(25),
                                     ),
-                                  ],
+                                  ),
+                                  child: const Icon(
+                                    Icons.arrow_forward_outlined,
+                                    size: 25,
+                                    weight: 20,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Container(
-                              height: 156,
-                              width: 268,
-                              decoration: const BoxDecoration(
-                                color: Color(0xFFF5F4F8),
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.only(right: 120),
-                                child: Image.asset(
-                                  "assets/images/7th 3 img.png",
-                                  height: 140,
-                                  width: 134,
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Padding(
-                    padding: EdgeInsets.all(20),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Top Locations",
-                          style: TextStyle(
-                            color: Color(0xFF252B5C),
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Text(
-                          "Exploar",
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Color(0xFF234F68),
-                            fontWeight: FontWeight.bold,
+                            ],
                           ),
                         ),
                       ],
                     ),
                   ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Stack(
-                      children: [
-                        Row(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(right: 20),
-                              child: Container(
-                                height: 56,
-                                width: 91,
-                                decoration: BoxDecoration(
-                                  color: const Color(0xFFf5f4f8),
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.only(right: 30),
-                                  child: Image.asset(
-                                    "assets/images/container 7 th.png",
-                                    height: 40,
-                                    width: 40,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(right: 20),
-                              child: Container(
-                                height: 56,
-                                width: 108,
-                                decoration: BoxDecoration(
-                                  color: const Color(0xFFf5f4f8),
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.only(
-                                    right: 50,
-                                  ),
-                                  child: Image.asset(
-                                    "assets/images/container 7th 2.png",
-                                    height: 40,
-                                    width: 40,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Container(
-                              height: 56,
-                              width: 128,
-                              decoration: BoxDecoration(
-                                color: const Color(0xFFf5f4f8),
-                                borderRadius: BorderRadius.circular(25),
-                              ),
-                              child: Padding(
-                                padding: const EdgeInsets.only(right: 60),
-                                child: Image.asset(
-                                  "assets/images/container 7 th 3.png",
-                                  width: 40,
-                                  height: 40,
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 20),
-                              child: Container(
-                                height: 56,
-                                width: 123,
-                                decoration: BoxDecoration(
-                                  color: const Color(0xFFf5f4f8),
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                child: Padding(
-                                  padding: const EdgeInsets.only(right: 40),
-                                  child: Image.asset(
-                                    "assets/images/container 7 th 4.png",
-                                    height: 20,
-                                    width: 20,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Padding(
-                    padding: EdgeInsets.all(20),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Top Estate Agent",
-                          style: TextStyle(
-                            color: Color(0xFF252B5C),
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        Text(
-                          "Exploar",
-                          style: TextStyle(
-                            fontSize: 10,
-                            color: Color(0xFF234F68),
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Row(
+                  const Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.only(left: 20),
-                        child: Container(
-                          height: 70,
-                          width: 70,
-                          decoration: const BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: Color(0xFFF5F4F8),
+                        padding: EdgeInsets.only(top: 25, left: 25),
+                        child: Text(
+                          "Featured Estates",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xFF252B5C),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.only(left: 105, top: 25),
+                        child: Text(
+                          "view all",
+                          style: TextStyle(
+                            fontSize: 10,
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xFF234F68),
                           ),
                         ),
                       ),
                     ],
                   ),
-                  const SizedBox(width: 80),
-                  const Text(
-                    "Amanda",
-                    style: TextStyle(),
+                  const SizedBox(height: 25),
+                  SingleChildScrollView(
+                    child: Container(
+                      height: 156,
+                      width: 268,
+                      decoration: const BoxDecoration(
+                        color: Color(0xFFF5F4F8),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(25),
+                        ),
+                      ),
+                      child: Stack(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.only(top: 7),
+                            child: Image.asset(
+                              "assets/images/7 th 4 th.png",
+                              height: 140,
+                              width: 130,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const Row(
+                    children: [
+                      Text(
+                        "Top Locations",
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: Color(0xFF252B5C),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -518,5 +443,3 @@ class _SevanScreenState extends State<SevanScreen> {
     );
   }
 }
-
-// Ds@85&5599

@@ -218,7 +218,9 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
           Container(
             height: 588,
             width: 375,
-            decoration: BoxDecoration(color: Color(0xFFFFFFFF)),
+            decoration: const BoxDecoration(
+              color: Color(0xFFFFFFFF),
+            ),
           ),
         ],
       ),
