@@ -408,14 +408,76 @@ class _SevanScreenState extends State<SevanScreen> {
                           Radius.circular(25),
                         ),
                       ),
-                      child: Stack(
+                      child: Row(
                         children: [
-                          Padding(
-                            padding: const EdgeInsets.only(top: 7),
-                            child: Image.asset(
-                              "assets/images/7 th 4 th.png",
-                              height: 140,
-                              width: 130,
+                          Stack(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(left: 10),
+                                child: Image.asset(
+                                  "assets/images/7 th 4 th.png",
+                                  height: 140,
+                                  width: 130,
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 10, left: 20),
+                                child: Container(
+                                  height: 25,
+                                  width: 25,
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF8BC83F),
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: const Icon(
+                                    Icons.favorite,
+                                    size: 15,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(top: 104, left: 25),
+                                child: Container(
+                                  height: 27,
+                                  width: 63,
+                                  decoration: BoxDecoration(
+                                    color: const Color(0xFF234F68),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: const Padding(
+                                    padding: EdgeInsets.all(9),
+                                    child: Text(
+                                      "Apartment",
+                                      style: TextStyle(
+                                        fontSize: 8,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const Padding(
+                            padding: EdgeInsets.only(top: 10, left: 10),
+                            child: Column(
+                              children: [
+                                Text(
+                                  "Sky Dandelions\n"
+                                  "Apartment",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xFF252B5C),
+                                  ),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color(0xFFFFC42D),
+                                  size: 7.5,
+                                ),
+                              ],
                             ),
                           ),
                         ],
