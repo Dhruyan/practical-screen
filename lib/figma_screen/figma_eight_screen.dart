@@ -121,7 +121,7 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.only(top: 10),
+            padding: EdgeInsets.only(top: 10, left: 75),
             child: Text(
               "Leadership Team",
               style: TextStyle(
@@ -131,7 +131,7 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
             ),
           ),
           const Padding(
-            padding: EdgeInsets.only(top: 15),
+            padding: EdgeInsets.only(top: 15, left: 30),
             child: Text(
               "   Meet the leadership team driving our\n "
               "mission to create a world where people\n "
@@ -174,7 +174,7 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(right: 210),
+                      padding: const EdgeInsets.only(right: 190),
                       child: Text(
                         colortextList[index]["text"],
                         style: const TextStyle(
@@ -186,6 +186,8 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
                       ),
                     ),
                     Column(
+                      // crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
                         Padding(
                           padding: const EdgeInsets.only(right: 160, top: 15),
@@ -199,23 +201,23 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
                             ),
                           ),
                         ),
-                        Column(
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(top: 15, right: 60),
-                              child: Text(
-                                colortextList[index]["detail"],
-                                style: const TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w400,
-                                  color: Color(0xFF667085),
-                                ),
-                              ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(top: 15, right: 50),
+                          child: Text(
+                            colortextList[index]["detail"],
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w400,
+                              color: Color(0xFF667085),
                             ),
-                          ],
+                          ),
                         ),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),
