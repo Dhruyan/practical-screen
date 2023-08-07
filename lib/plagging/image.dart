@@ -18,7 +18,7 @@ class _ImageScreenState extends State<ImageScreen> {
             // `BlendMode.difference` results in the negative of `dst` where `src`
             // is fully white. That is why the text is white.
             blendMode: BlendMode.difference,
-            mask: Center(
+            mask: const Center(
               child: Text(
                 'Negative',
                 style: TextStyle(
