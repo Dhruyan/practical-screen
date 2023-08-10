@@ -218,9 +218,292 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
                         ),
                       ],
                     ),
+                    Padding(
+                      padding: const EdgeInsets.only(top: 20, left: 40),
+                      child: Row(
+                        children: [
+                          Image.asset(
+                            "assets/images/twitter icon.png",
+                            height: 24,
+                          ),
+                          const SizedBox(width: 10),
+                          Image.asset(
+                            "assets/images/linkdin.png",
+                            height: 24,
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
+            ),
+          ),
+          Container(
+            height: 320,
+            width: double.infinity,
+            padding: const EdgeInsets.only(top: 30),
+            color: const Color(0xFF6B58F1),
+            child: Column(
+              children: [
+                const Text(
+                  textAlign: TextAlign.center,
+                  "Join over 100+ startups \nalready growing with\nEvolve.",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontFamily: "Inter",
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                const Text(
+                  textAlign: TextAlign.center,
+                  "You are definitely among competitors and\nyou must come out on top but it depends on\nyour willpower.",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontFamily: "Inter",
+                    color: Colors.white,
+                  ),
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  width: 343,
+                  height: 50,
+                  padding: const EdgeInsets.only(top: 14),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    color: Colors.white,
+                  ),
+                  child: const Text(
+                    "Request a demo",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontFamily: "Inter",
+                      fontSize: 18,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(
+            height: 40,
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Image.asset(
+                      "assets/images/9 th 1 st.png",
+                      alignment: Alignment.topLeft,
+                      height: 44,
+                      width: 44,
+                    ),
+                    const SizedBox(
+                      width: 20,
+                    ),
+                    const Text(
+                      "Evolve",
+                      style: TextStyle(
+                        fontSize: 20,
+                        color: Color(0xFF101828),
+                        fontWeight: FontWeight.bold,
+                        fontFamily: "Inter",
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(
+                  height: 40,
+                ),
+                const Text(
+                  "For Administrative development\nand project management.",
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontFamily: "Inter",
+                    color: Color(0xFF667085),
+                  ),
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+                const Row(
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Company",
+                          style: TextStyle(
+                            color: Color(0xFF98A2B3),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Training",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "News & Articles",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Success Stories",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "About us",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Leadership Team",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Partners",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Careers",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                      ],
+                    ),
+                    Spacer(),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          "Services",
+                          style: TextStyle(
+                            color: Color(0xFF98A2B3),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Training",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "News & Articles",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Success Stories",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "About us",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Leadership Team",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Partners",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                        Text(
+                          "Careers",
+                          style: TextStyle(
+                            color: Color(0xFF667085),
+                            fontSize: 15,
+                            fontFamily: "Inter",
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          Container(
+            height: 120,
+            width: 373,
+            color: const Color(0xFFF4F3FE),
+            child: const Column(
+              children: [
+                Row(
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(top: 20, left: 30),
+                      child: Text(
+                        "© 2023 Evolve Co. All rights reserved.",
+                        style: TextStyle(
+                          color: Color(0xFF98A2B3),
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                    
+                  ],
+                ),
+              ],
             ),
           ),
         ],
