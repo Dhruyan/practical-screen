@@ -500,7 +500,6 @@ class _FigmaEightScreenState extends State<FigmaEightScreen> {
                         ),
                       ),
                     ),
-                    
                   ],
                 ),
               ],
