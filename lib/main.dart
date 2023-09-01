@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'figma_screen/figma_eight_screen.dart';
+import 'figma_screen/nine_sereen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "inter",
         primarySwatch: Colors.blue,
       ),
-      home: const FigmaEightScreen(),
+      home: const NineScreen(),
     );
   }
 }

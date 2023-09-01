@@ -10,10 +10,24 @@ class NineScreen extends StatefulWidget {
 class _NineScreenState extends State<NineScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Column(
         children: [
-          Image
+          Stack(
+            children: [
+              Container(
+                height: 32,
+                width: 32,
+                decoration: BoxDecoration(
+                  color: Colors.black87,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              Image.asset(
+                "assets/images/9 th 1.png",
+              ),
+            ],
+          ),
         ],
       ),
     );
