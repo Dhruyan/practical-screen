@@ -13,12 +13,12 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Column(
+          const Column(
             children: [
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 60, left: 20),
+                    padding: EdgeInsets.only(top: 60, left: 20),
                     child: Icon(
                       Icons.close,
                       size: 24,
@@ -51,9 +51,9 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
                   width: 30,
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 5),
-                child: const Text(
+              const Padding(
+                padding: EdgeInsets.only(left: 5),
+                child: Text(
                   "Shopex",
                   style: TextStyle(
                     fontSize: 20,
@@ -64,9 +64,9 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
               ),
             ],
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 30, right: 270),
-            child: const Text(
+          const Padding(
+            padding: EdgeInsets.only(top: 30, right: 270),
+            child: Text(
               "Full Name",
               style: TextStyle(
                 fontSize: 16,
@@ -86,9 +86,9 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 20, right: 300),
-            child: const Text(
+          const Padding(
+            padding: EdgeInsets.only(top: 20, right: 300),
+            child: Text(
               "Email",
               style: TextStyle(
                 fontSize: 16,
@@ -108,9 +108,9 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.only(top: 20, right: 270),
-            child: const Text(
+          const Padding(
+            padding: EdgeInsets.only(top: 20, right: 270),
+            child: Text(
               "Password",
               style: TextStyle(
                 fontSize: 16,
@@ -136,7 +136,7 @@ class _LoginSingupScreenState extends State<LoginSingupScreen> {
               height: 48,
               width: 327,
               decoration: BoxDecoration(
-                color: Color(0xFFFAB131),
+                color: const Color(0xFFFAB131),
                 borderRadius: BorderRadius.circular(20),
               ),
               child: const Padding(

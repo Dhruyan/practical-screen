@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'figma_screen/nine_sereen.dart';
+import 'figma_screen/login sing up screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "inter",
         primarySwatch: Colors.blue,
       ),
-      home: const NineScreen(),
+      home: const LoginSingupScreen(),
     );
   }
 }
